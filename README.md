@@ -2,7 +2,7 @@
 
 A short interactive narrative exploring how storytelling and guided reflection can encourage metacognitive thinking about ambiguous social situations.
 
-**Live demo:** https://your-username.github.io/the-pause/ *(update after deployment)*
+
 
 ## About
 
