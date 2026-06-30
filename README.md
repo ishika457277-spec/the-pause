@@ -72,3 +72,11 @@ This publishes the `dist` folder to the `gh-pages` branch. Enable GitHub Pages a
 - Improve the mobile layout, especially the end screen.
 - Compare AI generated reflections with fixed reflection prompts to investigate whether personalization encourages deeper reflection.
 - Explore different prompting strategies that encourage metacognition without steering users toward a particular interpretation.
+
+## Note
+The version deployed on GitHub Pages doesn't actually call the Hugging Face or 
+Gemini APIs - since this is a frontend-only app, any real key would be sitting in 
+public JS for anyone to grab, so the live demo runs without working keys on purpose. 
+It still works end to end, the closing reflection just falls back to a templated 
+response instead of one generated from what you typed. The full personalized version 
+works locally with your own keys (see "running it" section).
